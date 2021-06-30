@@ -1,2 +1,2 @@
 tasks:
- - init: pip intall -r requirements.txt
+ - init: pip install -r requirements.txt

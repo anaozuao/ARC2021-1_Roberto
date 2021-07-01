@@ -3,7 +3,7 @@ Name = Example
 Module = example
 
 [Documentation]
-Description = This is a simple plugin example to get you started.
+Description = Classe de experimentação de programação
 
 [Python]
 Version = 2+

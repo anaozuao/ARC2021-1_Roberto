@@ -3,14 +3,16 @@ from errbot import BotPlugin, botcmd
 
 class Example(BotPlugin):
     """
-    apenas uma classe de métodos para aprendizado.
+    This is a very basic plugin to try out your new installation and get you started.
+    Feel free to tweak me to experiment with Errbot.
+    You can find me in your init directory in the subdirectory plugins.
     """
 
     @botcmd  # flags a command
-    def bomdia(self, msg, args):
+    def tryme(self, msg, args):  # a command callable with !tryme
         """
-        Resposnde educadamente ao usuário
+        Execute to check if Errbot responds to command.
+        Feel free to tweak me to experiment with Errbot.
+        You can find me in your init directory in the subdirectory plugins.
         """
-        
-        argumentos = args.split(' ')
-        return "Bom dia quinta-feira"
+        return "It *works* !"  # This string format is markdown.
